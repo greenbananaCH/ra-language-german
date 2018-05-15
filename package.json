@@ -1,0 +1,24 @@
+{
+  "name": "ra-language-german",
+  "version": "2.0.0-RC4",
+  "description": "german translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenbananaCH/ra-language-german"
+  },
+  "keywords": [
+    "react",
+    "react-admin",
+    "translation"
+  ],
+  "author": "Jürg Langhard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenbananaCH/ra-language-german/issues"
+  },
+  "homepage": "https://github.com/greenbananaCH/ra-language-german#readme"
+}
