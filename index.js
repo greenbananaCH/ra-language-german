@@ -16,7 +16,11 @@ module.exports = {
             add_filter: 'Filter hinzufügen',
             remove_filter: 'Filter entfernen',
             back: 'Zurück',
-            bulk_actions: '%{smart_count} ausgewählt',
+            bulk_actions: 'Ein Element ausgewählt |||| %{smart_count} Elemente ausgewählt',
+            clear_input_value: 'Eingabe löschen',
+            clone: 'Klonen',
+            export: 'Exportieren',
+            search: 'Suchen',
         },
         boolean: {
             true: 'Ja',
@@ -30,6 +34,7 @@ module.exports = {
             delete: '%{name} #%{id} löschen',
             dashboard: 'Dashboard',
             not_found: 'Nicht gefunden',
+            error: 'Etwas ist schief gelaufen',
         },
         input: {
             file: {
@@ -58,6 +63,7 @@ module.exports = {
             delete_content: 'Möchten Sie diesen Inhalt wirklich löschen?',
             bulk_delete_title: 'Lösche %{name} |||| Lösche %{smart_count} %{name} Elemente',
             bulk_delete_content: 'Möchten Sie "%{name}" wirklich löschen? |||| Möchten Sie diese %{smart_count} Elemente wirklich löschen?',
+            error: 'Ein Fehler ist aufgetreten und ihre Anfrage konnte nicht abgeschlossen werden.',
         },
         navigation: {
             no_results: 'Keine Resultate gefunden',
@@ -66,10 +72,12 @@ module.exports = {
             page_out_from_end: 'Letzte Seite',
             page_out_from_begin: 'Erste Seite',
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
+            page_rows_per_page: 'Zeilen pro Seite:',
             next: 'Weiter',
             prev: 'Zurück',
         },
         auth: {
+            user_menu: 'Profil',
             username: 'Nutzername',
             password: 'Passwort',
             sign_in: 'Anmelden',
@@ -77,9 +85,9 @@ module.exports = {
             logout: 'Abmelden',
         },
         notification: {
-            updated: 'Element wurde aktualisiert',
+            updated: 'Element wurde aktualisiert |||| %{smart_count} Elemente wurden aktualisiert',
             created: 'Element wurde erstellt',
-            deleted: 'Element wurde gelöscht',
+            deleted: 'Element wurde gelöscht |||| %{smart_count} Elemente wurden gelöscht',
             bad_item: 'Fehlerhaftes Elemente',
             item_doesnt_exist: 'Das Element existiert nicht',
             http_error: 'Fehler beim Kommunizieren mit dem Server',
@@ -94,6 +102,6 @@ module.exports = {
             number: 'Muss eine Nummer sein',
             email: 'Muss eine gültige E-Mail sein',
             oneOf: 'Es muss einer sein von: %{options}',
-            regex: 'Es muss folgendem, regulären Austruck entsprechen: %{pattern}',        },
+            regex: 'Es muss folgendem, regulären Ausdruck entsprechen: %{pattern}',        },
     },
 };
