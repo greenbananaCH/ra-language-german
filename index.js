@@ -27,7 +27,7 @@ module.exports = {
             false: 'Nein',
         },
         page: {
-            list: 'Liste von %{name}',
+            list: '%{name}',
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
             create: '%{name} erstellen',
