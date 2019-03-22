@@ -9,6 +9,7 @@ module.exports = {
             edit: 'Bearbeiten',
             sort: 'Sortieren',
             cancel: 'Abbrechen',
+            confirm: 'Bestätigen',
             undo: 'Zurücksetzen',
             refresh: 'Aktualisieren',
             add: 'Neu',
