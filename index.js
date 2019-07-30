@@ -44,7 +44,7 @@ module.exports = {
             },
             image: {
                 upload_several: 'Zum Hochladen Bilder hineinziehen oder hier klicken, um Bilder auszuwählen.',
-                upload_single: 'Zum Hochladen Bild hineinziehen oder hier klicken, um eine Bild auszuwählen.',
+                upload_single: 'Zum Hochladen Bild hineinziehen oder hier klicken, um ein Bild auszuwählen.',
             },
             references: {
                 all_missing: 'Die zugehörigen Referenzen konnten nicht gefunden werden.',
