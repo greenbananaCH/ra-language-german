@@ -22,10 +22,10 @@ module.exports = {
             show: 'Anzeigen',
             sort: 'Sortieren',
             undo: 'Zurücksetzen',
-            expand: 'Expandieren',
-            close: 'Schließen',
-            open_menu: 'TODO',
-            close_menu: 'TODO',
+            expand: 'Erweitern',
+            close: 'Schliessen',
+            open_menu: 'Öffnen des Menüs',
+            close_menu: 'Schliessen des Menüs',
         },
         boolean: {
             true: 'Ja',
@@ -120,6 +120,7 @@ module.exports = {
             number: 'Muss eine Nummer sein',
             email: 'Muss eine gültige E-Mail sein',
             oneOf: 'Es muss einer sein von: %{options}',
-            regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',        },
+            regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',
+        },
     },
 };
