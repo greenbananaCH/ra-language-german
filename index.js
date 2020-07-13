@@ -59,8 +59,8 @@ module.exports = {
                 single_missing: 'Eine zugehörige Referenz scheint nicht mehr verfügbar zu sein.',
             },
             password: {
-                toggle_visible: 'TODO',
-                toggle_hidden: 'TODO',
+                toggle_visible: 'Passwort ausblenden',
+                toggle_hidden: 'Passwort einblenden',
             },
         },
         message: {
