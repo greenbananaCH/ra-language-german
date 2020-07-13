@@ -1,6 +1,6 @@
 {
   "name": "ra-language-german",
-  "version": "2.1.2",
+  "version": "3.2.0",
   "description": "german translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "index.js",
   "scripts": {
