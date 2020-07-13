@@ -91,7 +91,7 @@ module.exports = {
             prev: 'Zurück',
         },
         auth: {
-            auth_check_error: 'TODO',
+            auth_check_error: 'Bitte verbinden Sie sich um fortzufahren',
             user_menu: 'Profil',
             username: 'Nutzername',
             password: 'Passwort',
