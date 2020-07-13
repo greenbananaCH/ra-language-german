@@ -42,7 +42,7 @@ module.exports = {
             not_found: 'Nicht gefunden',
             show: '%{name} #%{id}',
             empty: 'Noch keine %{name}',
-            invite: 'Möchten Sie einen Lead erstellen ?',
+            invite: 'Wollen Sie einen erstellen ?',
         },
         input: {
             file: {
