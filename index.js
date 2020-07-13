@@ -38,11 +38,11 @@ module.exports = {
             edit: '%{name} #%{id}',
             error: 'Etwas ist schief gelaufen',
             list: '%{name}',
-            loading: 'TODO',
+            loading: 'Hochladen',
             not_found: 'Nicht gefunden',
             show: '%{name} #%{id}',
-            empty: 'TODO',
-            invite: 'TODO',
+            empty: 'Noch keine %{name}',
+            invite: 'Möchten Sie einen Lead erstellen ?',
         },
         input: {
             file: {
