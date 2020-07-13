@@ -106,10 +106,10 @@ module.exports = {
             bad_item: 'Fehlerhaftes Elemente',
             item_doesnt_exist: 'Das Element existiert nicht',
             http_error: 'Fehler beim Kommunizieren mit dem Server',
-            data_provider_error: 'dataProvider Fehler. Prüfe die Konsole für Details.',
-            i18n_error: 'Fehler beim Laden der Übersetzungen für die ausgewählte Sprache',
+            data_provider_error: 'Fehler im dataProvider. Mehr Details anzeigen.',
+            i18n_error: 'Übersetzungsfehler für die ausgewählte Sprache',
             canceled: 'Aktion abgebrochen',
-            logged_out: 'Ihr Session wurde beendet. Bitte erneut verbinden.'
+            logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.'
         },
         validation: {
             required: 'Benötigt',
