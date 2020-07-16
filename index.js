@@ -22,10 +22,11 @@ module.exports = {
             show: 'Anzeigen',
             sort: 'Sortieren',
             undo: 'Zurücksetzen',
-            expand: 'Expandieren',
-            close: 'Schließen',
-            open_menu: 'TODO',
-            close_menu: 'TODO',
+            unselect: 'Abwählen',
+            expand: 'Erweitern',
+            close: 'Schliessen',
+            open_menu: 'Öffnen des Menüs',
+            close_menu: 'Schliessen des Menüs',
         },
         boolean: {
             true: 'Ja',
@@ -38,11 +39,11 @@ module.exports = {
             edit: '%{name} #%{id}',
             error: 'Etwas ist schief gelaufen',
             list: '%{name}',
-            loading: 'TODO',
+            loading: 'Hochladen',
             not_found: 'Nicht gefunden',
             show: '%{name} #%{id}',
-            empty: 'TODO',
-            invite: 'TODO',
+            empty: 'Noch keine %{name}',
+            invite: 'Wollen Sie einen erstellen ?',
         },
         input: {
             file: {
@@ -59,8 +60,8 @@ module.exports = {
                 single_missing: 'Eine zugehörige Referenz scheint nicht mehr verfügbar zu sein.',
             },
             password: {
-                toggle_visible: 'TODO',
-                toggle_hidden: 'TODO',
+                toggle_visible: 'Passwort ausblenden',
+                toggle_hidden: 'Passwort einblenden',
             },
         },
         message: {
@@ -70,14 +71,14 @@ module.exports = {
             bulk_delete_title: 'Lösche %{name} |||| Lösche %{smart_count} %{name} Elemente',
             delete_content: 'Möchten Sie diesen Inhalt wirklich löschen?',
             delete_title: 'Lösche %{name} #%{id}',
-            details: 'TODO',
+            details: 'Details',
             error: 'Ein Fehler ist aufgetreten und ihre Anfrage konnte nicht abgeschlossen werden.',
             invalid_form: 'Das Formular ist ungültig. Bitte überprüfen Sie ihre Eingaben.',
             loading: 'Die Seite wird geladen, bitte haben Sie etwas Geduld.',
             no: 'Nein',
             not_found: 'Die Seite konnte nicht gefunden werden.',
             yes: 'Ja',
-            unsaved_changes: 'TODO',
+            unsaved_changes: 'Einige Änderungen wurden nicht gespeichert. Sind Sie sicher, dass Sie diese Seite verlassen wollen?',
         },
         navigation: {
             no_results: 'Keine Resultate gefunden',
@@ -91,7 +92,7 @@ module.exports = {
             prev: 'Zurück',
         },
         auth: {
-            auth_check_error: 'TODO',
+            auth_check_error: 'Bitte verbinden Sie sich um fortzufahren',
             user_menu: 'Profil',
             username: 'Nutzername',
             password: 'Passwort',
@@ -106,10 +107,10 @@ module.exports = {
             bad_item: 'Fehlerhaftes Elemente',
             item_doesnt_exist: 'Das Element existiert nicht',
             http_error: 'Fehler beim Kommunizieren mit dem Server',
-            data_provider_error: 'dataProvider Fehler. Prüfe die Konsole für Details.',
-            i18n_error: 'Fehler beim Laden der Übersetzungen für die ausgewählte Sprache',
+            data_provider_error: 'Fehler im dataProvider. Mehr Details anzeigen.',
+            i18n_error: 'Übersetzungsfehler für die ausgewählte Sprache',
             canceled: 'Aktion abgebrochen',
-            logged_out: 'Ihr Session wurde beendet. Bitte erneut verbinden.'
+            logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.'
         },
         validation: {
             required: 'Benötigt',
@@ -120,6 +121,7 @@ module.exports = {
             number: 'Muss eine Nummer sein',
             email: 'Muss eine gültige E-Mail sein',
             oneOf: 'Es muss einer sein von: %{options}',
-            regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',        },
+            regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',
+        },
     },
 };
