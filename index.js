@@ -22,6 +22,7 @@ module.exports = {
             show: 'Anzeigen',
             sort: 'Sortieren',
             undo: 'Zurücksetzen',
+            unselect: 'Abwählen',
             expand: 'Erweitern',
             close: 'Schliessen',
             open_menu: 'Öffnen des Menüs',
