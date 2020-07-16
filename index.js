@@ -22,8 +22,11 @@ module.exports = {
             show: 'Anzeigen',
             sort: 'Sortieren',
             undo: 'Zurücksetzen',
-            expand: 'Expandieren',
-            close: 'Schließen',
+            unselect: 'Abwählen',
+            expand: 'Erweitern',
+            close: 'Schliessen',
+            open_menu: 'Öffnen des Menüs',
+            close_menu: 'Schliessen des Menüs',
         },
         boolean: {
             true: 'Ja',
@@ -57,8 +60,8 @@ module.exports = {
                 single_missing: 'Eine zugehörige Referenz scheint nicht mehr verfügbar zu sein.',
             },
             password: {
-                toggle_visible: 'Passwort verstecken',
-                toggle_hidden: 'Passwort anzeigen',
+                toggle_visible: 'Passwort ausblenden',
+                toggle_hidden: 'Passwort einblenden',
             },
         },
         message: {
@@ -71,10 +74,11 @@ module.exports = {
             details: 'Details',
             error: 'Ein Fehler ist aufgetreten und ihre Anfrage konnte nicht abgeschlossen werden.',
             invalid_form: 'Das Formular ist ungültig. Bitte überprüfen Sie ihre Eingaben.',
-            loading: 'Die Seite wird geladen.',
+            loading: 'Die Seite wird geladen, bitte haben Sie etwas Geduld.',
             no: 'Nein',
             not_found: 'Die Seite konnte nicht gefunden werden.',
             yes: 'Ja',
+            unsaved_changes: 'Einige Änderungen wurden nicht gespeichert. Sind Sie sicher, dass Sie diese Seite verlassen wollen?',
         },
         navigation: {
             no_results: 'Keine Resultate gefunden',
@@ -88,7 +92,7 @@ module.exports = {
             prev: 'Zurück',
         },
         auth: {
-            auth_check_error: 'Bitte einloggen um fortzufahren',
+            auth_check_error: 'Bitte verbinden Sie sich um fortzufahren',
             user_menu: 'Profil',
             username: 'Nutzername',
             password: 'Passwort',
@@ -103,10 +107,10 @@ module.exports = {
             bad_item: 'Fehlerhaftes Elemente',
             item_doesnt_exist: 'Das Element existiert nicht',
             http_error: 'Fehler beim Kommunizieren mit dem Server',
-            data_provider_error: 'dataProvider Fehler. Prüfe die Konsole für Details.',
+            data_provider_error: 'Fehler im dataProvider. Prüfe die Konsole für Details.',
             i18n_error: 'Die Übersetzungen für die angegebene Sprache können nicht geladen werden.',
             canceled: 'Aktion abgebrochen',
-            logged_out: 'Ihr Session wurde beendet. Bitte erneut verbinden.'
+            logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.'
         },
         validation: {
             required: 'Benötigt',
