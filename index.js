@@ -39,11 +39,11 @@ module.exports = {
             edit: '%{name} #%{id}',
             error: 'Etwas ist schief gelaufen',
             list: '%{name}',
-            loading: 'Hochladen',
+            loading: 'Die Seite wird geladen.',
             not_found: 'Nicht gefunden',
             show: '%{name} #%{id}',
-            empty: 'Noch keine %{name}',
-            invite: 'Wollen Sie einen erstellen ?',
+            empty: 'Noch kein %{name}.',
+            invite: 'Neu erstellen?',
         },
         input: {
             file: {
@@ -107,8 +107,8 @@ module.exports = {
             bad_item: 'Fehlerhaftes Elemente',
             item_doesnt_exist: 'Das Element existiert nicht',
             http_error: 'Fehler beim Kommunizieren mit dem Server',
-            data_provider_error: 'Fehler im dataProvider. Mehr Details anzeigen.',
-            i18n_error: 'Übersetzungsfehler für die ausgewählte Sprache',
+            data_provider_error: 'Fehler im dataProvider. Prüfe die Konsole für Details.',
+            i18n_error: 'Die Übersetzungen für die angegebene Sprache können nicht geladen werden.',
             canceled: 'Aktion abgebrochen',
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.'
         },
