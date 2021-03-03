@@ -90,6 +90,7 @@ module.exports = {
             page_rows_per_page: 'Zeilen pro Seite:',
             next: 'Weiter',
             prev: 'Zurück',
+            skip_nav: 'Zum Inhalt springen',
         },
         auth: {
             auth_check_error: 'Bitte verbinden Sie sich um fortzufahren',
