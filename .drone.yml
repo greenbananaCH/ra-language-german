@@ -1,0 +1,14 @@
+kind: pipeline
+  
+steps:
+- name: npm
+  image: plugins/npm
+  when:
+    event: [ tag ]
+  settings:
+    username:
+      from_secret: NPM_USERNAME
+    password:
+      from_secret: NPM_PASSWORD
+    email:
+      from_secret: NPM_EMAIL
