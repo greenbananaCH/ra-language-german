@@ -1,5 +1,6 @@
 kind: pipeline
-  
+name: default
+
 steps:
 - name: npm
   image: plugins/npm
@@ -10,5 +11,7 @@ steps:
       from_secret: NPM_USERNAME
     password:
       from_secret: NPM_PASSWORD
+    token:
+      from_secret: NPM_ACCESSTOKEN
     email:
       from_secret: NPM_EMAIL
