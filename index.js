@@ -21,7 +21,7 @@ module.exports = {
             search: 'Suchen',
             show: 'Anzeigen',
             sort: 'Sortieren',
-            undo: 'Zurücksetzen',
+            undo: 'Rückgänig',
             unselect: 'Abwählen',
             expand: 'Erweitern',
             close: 'Schliessen',
