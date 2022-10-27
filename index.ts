@@ -1,4 +1,6 @@
-module.exports = {
+import { TranslationMessages } from 'ra-core';
+
+const germanMessages: TranslationMessages = {
     ra: {
         action: {
             add_filter: 'Filter hinzufügen',
@@ -17,6 +19,7 @@ module.exports = {
             list: 'Liste',
             refresh: 'Aktualisieren',
             remove_filter: 'Filter entfernen',
+            remove_all_filters: 'Alle Filter entfernen',
             remove: 'Entfernen',
             save: 'Speichern',
             search: 'Suchen',
@@ -33,11 +36,13 @@ module.exports = {
             update: 'Aktualisieren',
             move_up: 'Nach oben',
             move_down: 'Nach unten',
+            open: 'Öffnen',
+            toggle_theme: 'Farbschema wechseln',
         },
         boolean: {
             true: 'Ja',
             false: 'Nein',
-            null: ' ',
+            null: ' ',
         },
         page: {
             create: '%{name} erstellen',
@@ -95,9 +100,15 @@ module.exports = {
             page_out_from_end: 'Letzte Seite',
             page_out_from_begin: 'Erste Seite',
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
+            partial_page_range_info:
+            '%{offsetBegin}-%{offsetEnd} von mehr als %{offsetEnd}',
+            current_page: 'Seite %{page}',
+            page: 'Zur Seite %{page}',
+            first: 'Zur ersten Seite',
+            last: 'Zur letzten Seite',
+            next: 'Weiter zur nächsten Seite',
+            previous: 'Zurück zur vorherigen Seite',
             page_rows_per_page: 'Zeilen pro Seite:',
-            next: 'Weiter',
-            prev: 'Zurück',
             skip_nav: 'Zum Inhalt springen',
         },
         sort: {
@@ -125,7 +136,7 @@ module.exports = {
             i18n_error: 'Die Übersetzungen für die angegebene Sprache können nicht geladen werden.',
             canceled: 'Aktion abgebrochen',
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.',
-            not_authorized: "Sie haben für diese Ressource keine Zugriffsrechte.",
+            not_authorized: 'Sie haben für diese Ressource keine Zugriffsrechte.',
         },
         validation: {
             required: 'Benötigt',
@@ -138,5 +149,33 @@ module.exports = {
             oneOf: 'Es muss einer sein von: %{options}',
             regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',
         },
+        saved_queries: {
+            label: 'Gespeicherte Anfragen',
+            query_name: 'Name der Anfrage',
+            new_label: 'Speichere aktuelle Anfrage...',
+            new_dialog_title: 'Speichere aktuelle Anfrage als',
+            remove_label: 'Entferne gespeicherte Anfrage',
+            remove_label_with_name: 'Entferne Anfrage "%{name}"',
+            remove_dialog_title: 'Gespeicherte Anfrage entfernen?',
+            remove_message:
+                'Sind Sie sicher, dass Sie dieses Element aus der Liste der gespeicherten Anfrage entfernen möchten?',
+            help: 'Filtern Sie die Liste und speichern Sie diese Anfrage für später',
+        },
+        configurable: {
+            customize: 'Anpassen',
+            configureMode: 'Konfigurieren Sie diese Seite',
+            inspector: {
+                title: 'Inspektor',
+                content: 'Bewegen Sie den Mauszeiger über die UI-Elemente um sie zu konfigurieren',
+                reset: 'Einstellungen zurücksetzen',
+            },
+            SimpleList: {
+                primaryText: 'Primärer Text',
+                secondaryText: 'Sekundärer Text',
+                tertiaryText: 'Tertiärer Text',
+            },
+        },
     },
 };
+
+export default germanMessages;
