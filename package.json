@@ -1,7 +1,7 @@
 {
   "name": "ra-language-german",
-  "version": "3.13.5",
-  "description": "german translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+  "version": "5.13.6",
+  "description": "German translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
