@@ -4,22 +4,29 @@ module.exports = {
       add_filter: "Filter hinzufügen",
       add: "Neu",
       back: "Zurück",
-      bulk_actions:
-        "Ein Element ausgewählt |||| %{smart_count} Elemente ausgewählt",
+      bulk_actions: "Ein Element ausgewählt |||| %{smart_count} Elemente ausgewählt",
       cancel: "Abbrechen",
+      clear_array_input: "Liste leeren",
       clear_input_value: "Eingabe löschen",
       clone: "Klonen",
       confirm: "Bestätigen",
       create: "Erstellen",
+      create_item: "Erstelle %{item}",
       delete: "Löschen",
       edit: "Bearbeiten",
       export: "Exportieren",
       list: "Liste",
       refresh: "Aktualisieren",
       remove_filter: "Filter entfernen",
+      remove_all_filters: "Alle Filter entfernen",
       remove: "Entfernen",
+      reset: 'Reset',
       save: "Speichern",
       search: "Suchen",
+      search_columns: 'Suchspalten',
+      select_all: "Alles auswählen",
+      select_all_button: 'Alle auswählen',
+      select_row: "Diese Zeile auswählen",
       show: "Anzeigen",
       sort: "Sortieren",
       undo: "Zurücksetzen",
@@ -28,17 +35,13 @@ module.exports = {
       close: "Schließen",
       open_menu: "Menü öffnen",
       close_menu: "Menü schließen",
-      clear_array_input: "Liste leeren",
-      create_item: "Erstelle %{item}",
-      remove_all_filters: "Alle Filter entfernen",
-      select_all: "Alles auswählen",
-      select_row: "Diese Zeile auswählen",
       update: "Aktualisieren",
       move_up: "Nach oben verschieben",
       move_down: "Nach unten verschieben",
       open: "Öffnen",
       toggle_theme: "Design umschalten",
       select_columns: "Spalten",
+      update_application: 'Anwendung neu laden',
     },
     boolean: {
       true: "Ja",
@@ -56,6 +59,8 @@ module.exports = {
       show: "%{name} #%{id}",
       empty: "Noch kein(e) %{name}.",
       invite: "Neu erstellen?",
+      access_denied: 'Zugriff verweigert',
+      authentication_error: 'Authentifizierungsfehler',
     },
     input: {
       file: {
@@ -71,8 +76,7 @@ module.exports = {
           "Zum Hochladen Bild hineinziehen oder hier klicken, um ein Bild auszuwählen.",
       },
       references: {
-        all_missing:
-          "Die zugehörigen Referenzen konnten nicht gefunden werden.",
+        all_missing: "Die zugehörigen Referenzen konnten nicht gefunden werden.",
         many_missing:
           "Mindestens eine der zugehörigen Referenzen scheint nicht mehr verfügbar zu sein.",
         single_missing:
@@ -85,7 +89,11 @@ module.exports = {
     },
     message: {
       about: "Über",
+      access_denied:
+        "Sie haben keine Berechtigung, auf diese Seite zuzugreifen.",
       are_you_sure: "Sind Sie sicher?",
+      authentication_error:
+        'Der Authentifizierungsserver hat einen Fehler zurückgegeben und Ihre Anmeldedaten konnten nicht überprüft werden.',
       bulk_delete_content:
         'Möchten Sie "%{name}" wirklich löschen? |||| Möchten Sie diese %{smart_count} Elemente wirklich löschen?',
       bulk_delete_title:
@@ -101,17 +109,19 @@ module.exports = {
       no: "Nein",
       not_found: "Die Seite konnte nicht gefunden werden.",
       yes: "Ja",
-      unsaved_changes:
-        "Einige Änderungen wurden nicht gespeichert. Sind Sie sicher, dass Sie diese Seite verlassen möchten?",
-      auth_error:
-        "Es ist ein Fehler beim Überprüfen des Authentifizierungstokens aufgetreten.",
+      unsaved_changes: "Einige Änderungen wurden nicht gespeichert. Sind Sie sicher, dass Sie diese Seite verlassen möchten?",
+      auth_error: "Es ist ein Fehler beim Überprüfen des Authentifizierungstokens aufgetreten.",
       bulk_update_content:
         "Möchten Sie dieses(e) %{name} wirklich aktualisieren?",
       bulk_update_title:
         "Aktualisiere %{name} |||| Aktualisiere %{smart_count} %{name}",
       clear_array_input: "Möchten Sie die gesamte Liste wirklich löschen?",
+      select_all_limit_reached:
+        'Es gibt zu viele Elemente, um sie alle auszuwählen. Nur die ersten %{max} Elemente wurden ausgewählt.',
+      placeholder_data_warning: 'Netzwerkproblem: Datenaktualisierung fehlgeschlagen.',
     },
     navigation: {
+      clear_filters: 'Filter löschen',
       no_results: "Keine Ergebnisse gefunden",
       no_more_results: "Die Seite %{page} enthält keine Inhalte.",
       page_out_of_boundaries:
@@ -136,6 +146,7 @@ module.exports = {
       user_menu: "Profil",
       username: "Nutzername",
       password: "Passwort",
+      email: 'Email',
       sign_in: "Anmelden",
       sign_in_error: "Fehler bei der Anmeldung",
       logout: "Abmelden",
@@ -158,6 +169,8 @@ module.exports = {
         "Ihre Sitzung wurde beendet. Bitte verbinden Sie sich erneut.",
       not_authorized:
         "Sie sind nicht berechtigt, auf diese Ressource zuzugreifen.",
+      application_update_available: 'Eine neue Version ist verfügbar.',
+      offline: 'Keine Verbindung. Daten konnten nicht abgerufen werden.',
     },
     validation: {
       required: "Benötigt",
@@ -169,6 +182,7 @@ module.exports = {
       email: "Muss eine gültige E-Mail sein",
       oneOf: "Muss einer der folgenden Werte sein: %{options}",
       regex: "Muss dem folgenden regulären Ausdruck entsprechen: %{pattern}",
+      unique: 'Muss einzigartig sein',
     },
     sort: {
       sort_by: "Sortieren nach %{field} %{order}",
